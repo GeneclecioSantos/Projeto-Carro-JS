@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./carro.css">
+  <title>Carro</title>
+</head>
+<body>
+
+  <div id="div1">
+    <h1>Range Rover - Evoque</h1>
+
+    <div id="div2">
+      <span>Estado do carro:</span><span id="rEstadoCarro"></span>
+      <span>KMs andados:</span><span id="kmAndados">0</span>
+      <span>Cor:</span><span id="corCarro">Branco</span>
+      <span>Gasolina:</span><progress id="progress" value="0" max="100"></progress>
+    </div>
+
+    <div>
+      <h2>Rodas:</h2>
+    </div>
+
+    <div id="divRodas">
+      <div id="rodas">
+        <span>Roda 01</span><progress id="roda1" value="100" max="0"></progress>
+        <span>Roda 02</span><progress id="roda2" value="100" max="0"></progress>
+        <span>Roda 03</span><progress id="roda3" value="100" max="0"></progress>
+        <span>Roda 04</span><progress id="roda4" value="100" max="0"></progress>
+      </div>
+    </div>
+
+    <div id="div2a">
+      <img id="img" src="./img/car.png" alt="">
+    </div>
+
+    <div id="div2b">
+      <button id="ligar">Ligar</button>
+      <button id="desligar">Desligar</button>
+      <button id="abastecer">Abastecer</button>
+      <button id="andar">Andar</button>
+      <button id="cor">Cor</button>
+    </div>
+
+</div>
+
+  <script src="./carro.js"></script>
+</body>
+</html>
